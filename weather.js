@@ -11,7 +11,7 @@ module.exports = function (location) {
     if (!location) {
       return reject("No location provided");
     }
-
+// make request to get weather
     request(
       {
         url: url,
