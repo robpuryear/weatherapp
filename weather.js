@@ -21,7 +21,7 @@ module.exports = function (location) {
         if (error) {
           reject("Unable to fetch weather");
         } else {
-          resolve("It is " + body.main.temp + " degress in " + body.name);
+          resolve("It is " + body.main.temp + " degress in " + body.name + " right now");
         }
       }
     );
