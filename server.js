@@ -2,7 +2,6 @@ var express = require("express");
 var app = express();
 var PORT = 3000;
 var bodyParser = require("body-parser");
-var location = require("./location");
 var weather = require("./weather");
 
 app.use(bodyParser.urlencoded({ extended: true }));
